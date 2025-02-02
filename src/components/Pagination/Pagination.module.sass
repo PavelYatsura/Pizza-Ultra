@@ -1,0 +1,33 @@
+.pagination
+    list-style: none
+    display: flex
+    justify-content: center
+    align-items: center
+    padding-top: 30px
+    gap: 10px
+    li
+        border: 1px solid #fe5f1e
+        border-radius: 30px
+        display: flex
+        justify-content: center
+        align-items: center
+        a
+            text-align: center
+            width: 40px
+            height: 40px
+            padding: 10px
+            cursor: pointer
+            transition: all .1s ease-in-out
+        &:hover
+            background-color: #fe5f1e
+            color: #fff
+:global
+    .previous
+        width: 30px
+        height: 30px
+    .next
+        width: 30px
+        height: 30px
+    .selected
+        background-color: #fe5f1e
+        color: #fff

@@ -1,0 +1,53 @@
+.header
+    display: flex
+    justify-content: space-between
+    border-bottom: 1px solid #F6F6F6
+    flex-wrap: wrap
+    padding-bottom: 25px
+    gap: 25px
+    @media (max-width: 625px)
+        justify-content: center
+
+    a
+        display: flex
+        height: 48px
+        cursor: pointer
+        text-decoration: none
+        h1
+            font-size: 24px
+            color: #181818
+            letter-spacing: 1%
+            font-weight: 800
+        p
+            font-size: 16px
+            color: #7B7B7B
+            font-weight: 400
+    &__img
+        margin-right: 17px
+    button
+        width: 150px
+        height: 50px
+        background-color: #FE5F1E
+        color: #ffffff
+        border: none
+        border-radius: 30px
+        cursor: pointer
+        display: flex
+        justify-content: center
+        align-items: center
+        font-family: "Roboto"
+        font-size: 16px
+        font-weight: 700
+        a
+            height: auto
+            text-decoration: none
+            color: white
+.shop
+    display: flex
+    align-items: center
+    span
+        display: flex
+        align-items: center
+    &__line
+        font-size: 24px
+        color: rgba(255, 255, 255, 0.25)

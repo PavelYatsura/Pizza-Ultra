@@ -1,0 +1,29 @@
+.search
+    position: relative
+    &__icon
+        position: absolute
+        top: 10px
+        left: 12px
+        width: 22px
+        height: 22px
+        opacity: 0.3
+    &__input
+        border: 1px solid rgba(0,0,0,0.1)
+        padding: 12px 20px
+        padding-left: 42px
+        outline: none
+        width: 400px
+        border-radius: 10px
+        transition: all .15s ease-in-out
+        &:focus
+            border: 1px solid rgba(0,0,0,0.3)
+    &__close
+        position: absolute
+        top: 10px
+        right: 10px
+        width: 22px
+        height: 22px
+        opacity: 0.3
+        cursor: pointer
+        &:hover
+            opacity: 0.8

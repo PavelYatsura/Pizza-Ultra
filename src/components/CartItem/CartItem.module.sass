@@ -1,0 +1,56 @@
+.item
+    display: grid
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr
+    padding: 30px
+    align-items: center
+    border-top: 1px solid #F4F4F4
+    img
+        width: 80px
+        margin-right: 15px
+    &__cange
+        display: flex
+        gap: 10px
+        align-items: center
+        margin-right: 90px
+    &__btn
+        width: 32px
+        height: 32px
+        border: none
+        border-radius: 100%
+        background-color: #ffffff
+        cursor: pointer
+        border: 2px solid #FE5F1E
+        font-size: 19px
+        color: #FE5F1E
+        &:active
+            background-color: #FE5F1E
+            color: #ffffff
+        &_disabled
+            cursor: default
+            width: 32px
+            height: 32px
+            border: none
+            border-radius: 100%
+            background-color: #ffffff
+            border: 2px solid #D0D0D0
+            font-size: 19px
+            color: #D0D0D0
+        
+    &__price
+        font-size: 22px
+        font-weight: 700
+        margin-right: 90px
+    &__deleted
+        width: 32px
+        height: 32px
+        border: none
+        border-radius: 100%
+        background-color: #ffffff
+        cursor: pointer
+        transform: rotate(45deg)
+        font-size: 20px
+        color: #D0D0D0
+        border: 2px solid #D0D0D0
+        &:active
+            background-color: #D0D0D0
+            color: #ffffff
